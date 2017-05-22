@@ -29,6 +29,7 @@ namespace TestRepo2.Controllers
 
         public ActionResult Test()
         {
+            ViewBag.Sample = "Sample onyl";
             return View();
         }
 
